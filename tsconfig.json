@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5", // 자바스크립트 버전 설정 (필요시 변경)
+    "lib": ["dom", "es2015"], // 사용할 라이브러리 설정
+    "jsx": "react-jsx", // React 17 이상에서는 react-jsx 사용
+    "module": "esnext", // 모듈 시스템 설정
+    "moduleResolution": "node", // 모듈 해석 방법
+    "esModuleInterop": true, // ES 모듈 호환성
+    "skipLibCheck": true, // 라이브러리 타입 체크 건너뛰기
+    "forceConsistentCasingInFileNames": true // 파일명 대소문자 일관성 체크
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
